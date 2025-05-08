@@ -22,13 +22,12 @@ describe('Filtro por marca en sección Tablets', () => {
       // Expandir filtro de Marca y seleccionar Samsung
       cy.get('input[placeholder="Buscar productos"]').eq(1)
       .type('Samsung{enter}');
-      //   cy.contains("Marca").click();  
-      //   cy.contains("Samsung").click(); 
+
   
       cy.get('[data-testid="product-card-container"]')
         .parent()
         .each(($parent) => {
-            cy.wrap($parent).should('exist'); // o lo que quieras verificar
+            cy.wrap($parent).should('exist'); 
       });
   
     });

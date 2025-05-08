@@ -8,7 +8,7 @@ Que no se muestren tarjetas de producto ni opciones de compra.
 
 Pasos a seguir:
 - Ingrese a https://tienda.personal.com.ar/
-- Escriba en la barra de búsqueda un producto inexistente (por ejemplo: “asdfgh”)
+- Escriba en la barra de búsqueda un producto inexistente (por ejemplo: “test”)
 - Verifique que se muestre un mensaje como “Pagina sin resultados”.
 
 */
